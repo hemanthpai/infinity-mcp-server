@@ -307,7 +307,7 @@ class TestAcceptanceCriteria:
             "progress_tracker",
             "test_plan",
             "instructions",
-            "guidelines",
+            "rules",
             "analysis",
         ]
 

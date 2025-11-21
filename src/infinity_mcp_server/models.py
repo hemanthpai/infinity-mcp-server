@@ -12,7 +12,7 @@ MemoryType = Literal[
     "progress_tracker",
     "test_plan",
     "instructions",
-    "guidelines",
+    "rules",
     "analysis",
 ]
 
@@ -23,7 +23,7 @@ ALLOWED_MEMORY_TYPES = {
     "progress_tracker",
     "test_plan",
     "instructions",
-    "guidelines",
+    "rules",
     "analysis",
 }
 

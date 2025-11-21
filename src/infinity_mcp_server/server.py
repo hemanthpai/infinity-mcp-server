@@ -67,7 +67,7 @@ def store_memory(title: str, type: str, content: str) -> dict:
         title: Memory title (required, non-empty)
         type: Memory type - must be one of: design_doc, project_overview,
               implementation_plan, progress_tracker, test_plan, instructions,
-              guidelines, analysis
+              rules, analysis
         content: Memory content in markdown format (can be empty string)
 
     Returns:

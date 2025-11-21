@@ -112,7 +112,7 @@ Create a new memory.
 
 **Parameters**:
 - `title` (str): Memory title (required, non-empty)
-- `type` (str): Memory type - one of: `design_doc`, `project_overview`, `implementation_plan`, `progress_tracker`, `test_plan`, `instructions`, `guidelines`, `analysis`
+- `type` (str): Memory type - one of: `design_doc`, `project_overview`, `implementation_plan`, `progress_tracker`, `test_plan`, `instructions`, `rules`, `analysis`
 - `content` (str): Memory content in markdown format
 
 **Returns**:
@@ -222,8 +222,8 @@ The following 7 memory types are supported (fixed set, no custom types allowed):
 | `implementation_plan` | Step-by-step plan to implement a design doc |
 | `progress_tracker` | Fine-grained task list tracking implementation progress |
 | `test_plan` | Detailed plan for testing features and edge cases |
-| `instructions` | How to build, run, test the project; code style guidelines |
-| `guidelines` | User-provided constraints or preferences for code modifications |
+| `instructions` | How to build, run, test the project; code style rules |
+| `rules` | User-provided constraints or preferences for code modifications |
 | `analysis` | Preliminary code review or investigation |
 
 ## Error Handling
@@ -366,7 +366,7 @@ AI agents should:
 - Use `project_overview` to maintain a living summary
 - Delete `implementation_plan` memories after implementation is complete
 - Update `progress_tracker` as tasks are completed
-- Keep `guidelines` and `instructions` up to date
+- Keep `rules` and `instructions` up to date
 
 ## Example Usage
 

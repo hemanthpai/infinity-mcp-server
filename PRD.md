@@ -45,8 +45,8 @@ Only the following 7 memory types are allowed. No new types may be created.
 | `implementation_plan` | Step-by-step plan to implement a design doc; often includes TODOs |
 | `progress_tracker` | Fine-grained task list (e.g., checklist) tracking implementation progress |
 | `test_plan` | Detailed plan for testing features, edge cases, and system behavior |
-| `instructions` | How to build, run, test the project; code style guidelines |
-| `guidelines` | User-provided constraints or preferences for code modifications (e.g., “never use async/await”) |
+| `instructions` | How to build, run, test the project; code style rules |
+| `rules` | User-provided constraints or preferences for code modifications (e.g., “never use async/await”) |
 | `analysis` | Preliminary code review or investigation to inform next steps (pre-design) |
 
 > ⚠️ **Enforcement**: Any attempt to create/update a memory with an invalid type must return `400 Bad Request`.
