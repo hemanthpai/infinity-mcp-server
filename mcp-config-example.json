@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "infinity": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/hemanthpai/infinity-mcp-server",
+        "infinity-mcp-server"
+      ],
+      "description": "Structured memory system for AI coding agents"
+    }
+  }
+}
